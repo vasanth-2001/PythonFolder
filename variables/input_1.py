@@ -1,0 +1,11 @@
+# print('Entter your name :')
+# name=input()
+# print("Entered Name : ",name)
+# print('-'*50)
+# name=input("Enter your name")
+# print('Entered Name : ',name)
+
+number1=input("enter first number")
+number2=input("enter second number")
+add=int(number1)+int(number2)
+print(add,type(add))

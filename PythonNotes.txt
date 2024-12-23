@@ -1,0 +1,8 @@
+23/12/24
+
+Python:
+1.easy to understand.
+2.libraries
+3.cross platform
+4.high level-language.
+
