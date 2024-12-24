@@ -103,3 +103,16 @@ print(menu)
 fruits=['mango',['fruitpulp','mixedpulp'],'banana',('apple','grapes')]
 for i in range(len(fruits)):
     print(fruits[i])
+
+
+
+# write a program to sum the numbers of the digits of a number
+
+
+num=123
+sum=0
+while(num>0):
+    rem=int(num%10)
+    sum=sum+rem
+    num/=10
+print("sum of the digit of  the number is :",sum)
