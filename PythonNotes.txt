@@ -4,5 +4,17 @@ Python:
 1.easy to understand.
 2.libraries
 3.cross platform
-4.high level-language.
+4.high level-language.  
 
+
+24/12/24
+tuple:
+    it is immutable.
+    it 
+
+operators:
+    membership operator:
+     * in and not in are the membership operators
+     used to check wheather a value or variable is in a sequence 
+     in => True if value found in the sequence
+     not in => True if value is not in the sequence
