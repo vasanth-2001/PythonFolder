@@ -52,3 +52,36 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+==========================================================================
+
+def add(value1,value2):
+    return value1+value2
+def sub(value1,value2):
+    return value1-value2
+def Multi(value1,value2):
+    return value1*value2
+def Div(value1,value2):
+    return value1/value2
+def exp(value1,value2):
+    return value1**value2
+
+def main():
+    value1=int(input('Enter the value 1: '))
+    value2=int(input('Enter the value 2: '))
+    print('1.Add\n2.Subtract\n3.Multiply\n4.Division\n5.Exponent')
+    userValue=int(input())
+    if userValue==1:
+        print('Add:',add(value1,value2))
+    elif userValue==2:
+        print('Sub:',sub(value1,value2))
+    elif userValue==3:
+        print('Multiplication:',Multi(value1,value2))
+    elif userValue==4:
+            print('Division:',Div(value1,value2))
+    elif userValue==5:
+        print('Exponential:',exp(value1,value2))
+    else:
+        print('Invalid option....')
+main()
