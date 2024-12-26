@@ -51,7 +51,7 @@ stringList=[]
 size=int(input("Enter the no of String value: "))
 print("Enter the String values")
 for i in range(size):
-    stringList.append(str(input()))
+    stringList.append((input()))
 print(stringList)
 
 # iterate over a while loop
