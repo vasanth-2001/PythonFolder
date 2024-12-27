@@ -47,6 +47,7 @@ def main():
         update(preValue,updateValue)
     elif(number==4):
         deletevalue = input('Which item you want to delete:')
+        
         delete(deletevalue)
         
 
